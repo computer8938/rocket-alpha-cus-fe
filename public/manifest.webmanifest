@@ -1,0 +1,24 @@
+{
+  "name": "Rocket Alpha Dashboard",
+  "short_name": "RocketAlpha",
+  "description": "Rocket Alpha 운영 대시보드와 인증 관리 인터페이스",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "ko-KR",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

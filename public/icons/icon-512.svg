@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Rocket Alpha icon">
+  <rect width="512" height="512" rx="120" fill="#07111f" />
+  <circle cx="256" cy="256" r="180" fill="#0f2037" />
+  <path d="M170 330L256 112l86 218-86-50-86 50Z" fill="#8fd3ff" />
+  <circle cx="256" cy="256" r="44" fill="#72f0b5" />
+</svg>

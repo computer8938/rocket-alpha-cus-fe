@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      additional_contexts:
+        shared_ui: ../rocket-alpha-ui
+    image: rocket-alpha-cus-fe:latest
+    container_name: rocket-alpha-customer-frontend
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      rocket-alpha-net:
+        aliases:
+          - rocket-alpha-customer-frontend
+
+networks:
+  rocket-alpha-net:
+    external: true
